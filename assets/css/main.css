@@ -251,6 +251,7 @@ input, select, textarea {
 		font-size: 0.625rem;
 	}
 
+	
 	@media screen and (max-width: 736px) {
 
 		h1 {
@@ -3936,4 +3937,21 @@ input, select, textarea {
 			list-style: none !important;
 		}
 
+	}
+
+	@media screen and (min-width: 650px) {
+
+		#wrapper {
+			display: none;
+		}
+		.pcno {
+			display: block;
+		}
+	}
+
+	@media screen and (max-width: 651px) {
+
+		.pcno {
+			display: none;
+		}
 	}
